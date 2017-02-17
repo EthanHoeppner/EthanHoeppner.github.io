@@ -7,5 +7,6 @@ title: Game Design Blog
 		{% for post in site.posts %}
 			{% if post.categories contains gamedesign %}
 				<li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+			{% endif %}
 		{% endfor %}
 	</ul>
