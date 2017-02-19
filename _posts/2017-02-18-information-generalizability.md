@@ -1,3 +1,10 @@
+---
+layout: gameDesignBlogPost
+title: "Information Generalizability"
+date: 2017-02-18
+category: gamedesign
+---
+
 **Calculation and Analysis**
 
 In Keith Burgun’s article [Minimize calculation (in games worth playing)]( http://keithburgun.net/minimize-calculation-in-games-worth-playing/) he distinguishes between two ways that a player can make decisions in a game: Calculation, and Analysis.
