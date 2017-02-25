@@ -9,9 +9,10 @@ I've been working on a prototype of a top-down shooter game for a while, and I t
 Since this is just a prototype, there isn't a menu or tutorial yet, when the game opens you'll merely see a "Play" button. Unfortunately the game isn't completely self-explanatory, so here's some stuff you'll probably need to know to be able to play decently:
 
 - You are the green circle that appears at the center of the screen. Use WASD to move around.
-- When you click, you fire a shot at the closest enemy within range. Your range is displayed by the translucent white light around you. Shooting an enemy knocks them back.
+- When you left-click, you fire a shot at the closest enemy within range. Your range is displayed by the translucent white light around you. Shooting an enemy knocks them back.
 - Certain weapons have additional effects. Some weapons will weaken enemies, causing all future attacks to deal extra knockback, other weapons will slow enemies, permanatly making them move at half their normal speed, and others will freeze enemies for a period of time.
 - There are two extra weapons scattered throughout each section, and every weapon has limited ammo. You'll have to pick up weapons and manage ammo carefully to win.
+- You can carry two weapons at once, and you can swap between them either by hitting space or by right-clicking.
 - In each section of the map, there are six nests. When you move to the right of a nest, it spawns two enemies.
 - Enemies have do not have health, but they can be killed by knocking them into the blue patches on the side of the level. Knocking an enemy into one of these patches destroys both the enemy and the patch.
 - The map is divided into "sections" which are separated by walls which can only be opened with keys. Each wall requires 3 keys, and each section has 4 keys within it.
