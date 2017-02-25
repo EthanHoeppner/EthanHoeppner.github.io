@@ -16,5 +16,5 @@ Since this is just a prototype, there isn't a menu or tutorial yet, when the gam
 - In each section of the map, there are six nests. When you move to the right of a nest, it spawns two enemies.
 - Enemies have do not have health, but they can be killed by knocking them into the blue patches on the side of the level. Knocking an enemy into one of these patches destroys both the enemy and the patch.
 - The map is divided into "sections" which are separated by walls which can only be opened with keys. Each wall requires 3 keys, and each section has 4 keys within it.
-- At the top of the screen is a timer, which starts at 60 seconds and counts down to 1. When the timer reaches 0, the current section will begin to be filled with red tiles. Touching one of these red tiles ends the game.
+- At the top of the screen is a timer, which starts at 60 seconds. When the timer reaches 0, the current section will begin to be filled with red tiles. Touching one of these red tiles ends the game.
 - You don't have any health bar, but whenever you are hit by an enemy, the timer is shortened by several seconds. Also, if an enemy touches one of the red tiles, it is killed, but takes several seconds off the timer.
