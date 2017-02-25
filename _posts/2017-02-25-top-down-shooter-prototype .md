@@ -9,7 +9,7 @@ I've been working on a prototype of a top-down shooter game for a while, and I t
 Since this is just a prototype, there isn't a menu or tutorial yet, when the game opens you'll merely see a "Play" button. Unfortunately the game isn't completely self-explanatory, so here's some stuff you'll probably need to know to be able to play:
 
 - You are the green circle that appears at the center of the screen. Use WASD to move around.
-- When you left-click, you fire a shot at the closest enemy within range. Your range is displayed by the translucent white light around you. Shooting an enemy knocks them back.
+- When you left-click, you fire a shot at the closest enemy to your cursor within range. Your range is displayed by the translucent white light around you. Shooting an enemy knocks them back.
 - Certain weapons have additional effects. Some weapons will weaken enemies, causing all future attacks to deal extra knockback, other weapons will slow enemies, permanatly making them move at half their normal speed, and others will freeze enemies for a period of time.
 - There are two extra weapons scattered throughout each section, and every weapon has limited ammo. You'll have to pick up weapons and manage ammo carefully to win.
 - You can carry two weapons at once, and you can swap between them either by hitting space or by right-clicking.
