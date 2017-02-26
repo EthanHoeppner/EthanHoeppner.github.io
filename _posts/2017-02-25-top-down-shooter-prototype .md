@@ -10,7 +10,7 @@ Since this is just a prototype, there isn't a menu or tutorial yet, when the gam
 
 - You are the green circle that appears at the center of the screen. Use WASD to move around.
 - When you left-click, you fire a shot at the closest enemy to your cursor within range. Your range is displayed by the translucent white light around you. Shooting an enemy knocks them back.
-- Certain weapons have additional effects. Some weapons will weaken enemies, causing all future attacks to deal extra knockback, other weapons will slow enemies, permanatly making them move at half their normal speed, and others will freeze enemies for a period of time.
+- Certain weapons have additional effects. Some weapons will weaken enemies, causing all future attacks to deal extra knockback, other weapons will slow enemies, permanatly making them move at half their normal speed, and others will freeze enemies for a period of time. Weakening is denoted by a red square around the enemy, slowing with a yellow icon above the enemy, and freezing with a blue square.
 - There are two extra weapons scattered throughout each section, and every weapon has limited ammo. You'll have to pick up weapons and manage ammo carefully to win.
 - You can carry two weapons at once, and you can swap between them either by hitting space or by right-clicking.
 - In each section of the map, there are six nests. When you move to the right of a nest, it spawns two enemies.
@@ -18,3 +18,5 @@ Since this is just a prototype, there isn't a menu or tutorial yet, when the gam
 - The map is divided into "sections" which are separated by walls which can only be opened with keys. Each wall requires 3 keys, and each section has 4 keys within it.
 - At the top of the screen is a timer, which starts at 60 seconds. When the timer reaches 0, the current section will begin to be filled with red tiles. Touching one of these red tiles ends the game.
 - You don't have any health bar, but whenever you are hit by an enemy, the timer is shortened by several seconds. Also, if an enemy touches one of the red tiles, it is killed, but takes several seconds off the timer.
+
+Also, the game doesn't have a victory condition at the moment. There are only 5 sections in the level, so for now if you reach the end of the fifth section you can say that you won.
