@@ -1,7 +1,7 @@
 ---
 layout: gameDesignBlogPost
 title: "Turn Based Strategy Games Need Turn Timers"
-date: 2017-03-01
+date: 2017-03-02
 category: gamedesign
 ---
 In my [post on Information Generalizability](http://ethanhoeppner.github.io/gamedesign/information-generalizability.html), I distinguished between two mental processes that a player uses to play a game: Analysis and Calculation. Calculation is the type of thinking that uses computation to predict the exact results of individual moves, where as analysis is the a more intuitive, automatic type of thinking. Calculation, as I argue in that post, is something to be avoided when designing games. Information Generalizability is what allows analysis to be more useful, but it doesn't necessarily make calculation less useful. A game high in information generalizability will be susceptible to analysis, but you will always do better at the game fully calculating the result of all possible moves than you will be using analysis.
