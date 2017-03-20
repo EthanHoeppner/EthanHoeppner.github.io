@@ -20,3 +20,11 @@ Since this is just a prototype there isn't a menu or tutorial yet, when the game
 - You don't have any health bar, but whenever you are hit by an enemy, the timer is shortened by several seconds. Also, if an enemy touches one of the red tiles it is killed, but takes several seconds off the timer.
 
 Unfortunately, the game doesn't have a victory condition at the moment. There are only 5 sections in the level, so for now if you reach the end of the fifth section you can say that you won.
+
+**Edit: 3/20/2017**
+Since this post, I've decided to stop working on this game for now. Many of the changes I find myself wanting to make are large enough that it would be quicker to just scrap the project and restart than it would be to continue working forward from here, and at the moment I have other games that I think take precedence over this one. I may eventually return to this concept, but for now I'm shelving it.
+
+However, I did make some significant changes after posting the first build of the game here, and there's a newer version of this prototype that you can play [here](https://ethanhoeppner.github.io/gameFiles/topDownShooterPrototype1/build2/). Here's a brief rundown of the big changes in this build:
+- The game is about 25% slower now
+- Sections are longer, and you need 5 keys to progress to each one, but there are also 7 keys in each section
+- You can now see what enemies will be spawned, before they are actually spawned
