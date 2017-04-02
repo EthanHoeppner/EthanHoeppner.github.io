@@ -47,9 +47,11 @@ Of course, this isn’t very different from a normal high-score format game, in 
 To solve the early-game boredom problem without a more complex difficulty modification scheme, games should include optional challenges the player can take on that will make the game harder, but give them a higher score in return. If a game includes enough of these optional challenges, the early-game boredom problems is solved, since in the parts of the game that aren’t hard enough to interest the player, they will seek the extra rewards to get more points while simultaneously making the game harder, and thus more interesting. I call these rewards “optional-challenge rewards,” or OCRs, and I believe that including enough of these is the key to varying the difficulty of a game by modifying a single variable.
 
 There are many ways to implement ORCs, and I will list a few possible examples here:
--Having enemies that spawn “asleep” on a level that normally don’t affect the player, but the player can decide to wake them up and fight them to gain extra points.
--Have some item that the player can collect that will give them extra points, but will make all enemies that they face in the future more difficult
--Have the player to choose between two items, one more powerful and easy to use than the other, but make the less powerful give a point bonus
+
+* Having enemies that spawn “asleep” on a level that normally don’t affect the player, but the player can decide to wake them up and fight them to gain extra points.
+* Have some item that the player can collect that will give them extra points, but will make all enemies that they face in the future more difficult
+* Have the player to choose between two items, one more powerful and easy to use than the other, but make the less powerful give a point bonus
+
 It’s also possible to have OCRs that don’t immediately give the player points, but instead make it easier for them to get points in the future. For example, imagine that in the early the player can choose to spend effort gathering a resource that won’t immediately benefit them, but that will allow them to get more points once they get to the late game.
 If you take into account optional-challenge rewards, the indefinitely-scaling-match-length problem is rather easy to solve: just put a limit on how long the game can last. Normally this would put a hard cap on how many points the player can get, since in many high score games the amount of points the player has is mostly determined by how far they get in the game. However, in a game with enough OCRs, the player’s score isn’t determined by how long they survive, but by how many points they are able to get in each moment of the game.
 
