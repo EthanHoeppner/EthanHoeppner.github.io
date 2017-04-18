@@ -33,14 +33,17 @@ But of course, calculating the probability that the player had of winning would 
 Many people have pointed out practical flaws in currently-existing score system based games, and used these to argue that score systems are fundamentally flawed. Keith Burgun’s article [Auro’s “Single-Player Elo System”](http://www.dinofarmgames.com/auros-single-player-elo-system/) makes several of the criticisms, which I will now address:
 
 > * Match length scales indefinitely… As a player gets better at the game, the game simply gets longer, and longer… and longer.
+
 This issue was a big focus of my last post, [The Problems with Difficulty Modification](https://ethanhoeppner.github.io/gamedesign/the-problems-with-difficulty-modification.html). The solution, briefly, is to place a time-limit on the game, but allow for a large variation in the rate at which players can gain points (by implementing optional challenge rewards), so that strategic progress can be expressed through an increase in the efficiency of gaining points, instead of merely surviving for longer.
 
 > * ‘Highest score ever’ becomes too difficult… What happens in high-score based games is that eventually, you get some once-in-a-lifetime crazy game that sets your ‘highest score ever’ at some super high number. The higher that number gets, the more that future games are without any reasonable, achievable goal.
 > * Beat the score… now what? There’s this weird moment that happens in high score based games, which happens right when you beat the high score. Strangely, the match keeps going. Now what’s your goal? You already achieved the goal for this match, so what are you doing now?
+
 These two criticisms are actually not talking about the same type of score system that I advocate for. The system I am arguing for is one in which there is a continuous goal of maximizing the score, but these arguments are actually talking about a system in which you have a binary goal: beating the highest score you’ve ever gotten in previous matches. These are two very different systems, and I with Keith that the one he is describing has big issues.
 
 > * Some have suggested that you should get ‘as high a score as you can’ or even ‘survive as long as you can’. Well, that goal is 100% guaranteed to succeed, because even if your match ends the MOMENT you achieve the high score, you still got ‘as high a score as you could’.
 > * Ultimately, because of all this bizarre noise, players end up having to just kind of choose their own goals. ‘Maybe I’ll go for 30,000 points this game’, they might say. Half-way through, seeing that things aren’t going so well, they might say ‘Hmm, well, let’s see if I can get 20,000.’
+
 Both of these criticisms, I believe, are making a mistake in their interpretation of score systems. To be clear, in a score system the player never has a “goal” like a win/loss system does. Perhaps you could say that the “goal” is “to maximize score,” but there is not any such thing as “reaching” or “accomplishing” the goal in a score system. A score of X is better than a score of X-1, but there isn’t any point at which you can say “I have accomplished the goal” in a score system. This is a fundamental difference between win/loss and score systems, and trying to force a score system to fit into the mold of a win/loss system is a mistake.
 
 **Arc lengths in score systems**
