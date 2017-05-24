@@ -71,3 +71,5 @@ Brazen Berry Bonanza’s flow diagram would look almost identical to the previou
 **Conclusion**
 
 The essential thing that makes strategy games fun is the process of forming plans, and the information flow has a huge impact on how the player forms plans. It’s important to make sure the flow as a whole isn’t too fast or too slow, but for a more nuanced view you need to look at the way the flow changes over time. A good pattern to follow is the spiky information flow, in which high-impact information is collected into discrete spikes that happen at regular intervals, with a slow, regular flow of information between the spikes. Carefully considering the way information is introduced, and how that impacts the player’s ability to form plans, is essential to designing a good strategy game.
+
+Thanks to [evizaer](http://nohidden.info/) for helping me edit this article.
