@@ -1,0 +1,15 @@
+---
+layout: default
+title: Art
+---
+<h1>{{ page.title }}</h1>
+<p>I make algorithmic art occasionally. Generally, I use <a href="https://processing.org">Processing</a>. If you like any of these, and want an image in a different resolution or color scheme, email me (ethanmhoeppner@gmail.com) and I'll see what I can do.</p>
+<div>
+<ul class="posts artList">
+	{% for post in site.posts %}
+		{% if post.categories contains 'art' %}
+			<li><a href="{{ post.url }}" title="{{ post.title }}"><img src="../artImages/{{post.title}}icon.png" class="artIcon"></img></a></br><span>{{ post.date | date_to_string }}</span></li></br>
+		{% endif %}
+	{% endfor %}
+</ul>
+</div>
