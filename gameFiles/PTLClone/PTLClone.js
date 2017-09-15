@@ -92,7 +92,7 @@ ApplicationMain.init = function() {
 	}
 };
 ApplicationMain.main = function() {
-	ApplicationMain.config = { build : "330", company : "HaxeFlixel", file : "SpaceTrading", fps : 60, name : "SpaceTrading", orientation : "", packageName : "com.example.myapp", version : "0.0.1", windows : [{ antialiasing : 0, background : 0, borderless : false, depthBuffer : false, display : 0, fullscreen : false, hardware : false, height : 450, parameters : "{}", resizable : false, stencilBuffer : true, title : "SpaceTrading", vsync : true, width : 800, x : null, y : null}]};
+	ApplicationMain.config = { build : "332", company : "HaxeFlixel", file : "PTLClone", fps : 60, name : "PTLClone", orientation : "", packageName : "com.example.myapp", version : "0.0.1", windows : [{ antialiasing : 0, background : 0, borderless : false, depthBuffer : false, display : 0, fullscreen : false, hardware : false, height : 450, parameters : "{}", resizable : false, stencilBuffer : true, title : "PTLClone", vsync : true, width : 800, x : null, y : null}]};
 };
 ApplicationMain.start = function() {
 	var hasMain = false;
@@ -86838,4 +86838,4 @@ openfl_utils__$Endian_Endian_$Impl_$.LITTLE_ENDIAN = 1;
 ApplicationMain.main();
 })(typeof exports != "undefined" ? exports : typeof window != "undefined" ? window : typeof self != "undefined" ? self : this, typeof window != "undefined" ? window : typeof global != "undefined" ? global : typeof self != "undefined" ? self : this);
 
-//# sourceMappingURL=SpaceTrading.js.map
+//# sourceMappingURL=PTLClone.js.map
