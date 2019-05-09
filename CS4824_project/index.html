@@ -20,12 +20,18 @@ Each architecture was tested with all three training schedules (decreasing learn
 <img src="Architecture 1 (sgd).png" alt="Architecture 1 (sgd)"><img src="Architecture 1 (adam).png" alt="Architecture 1 (adam)"><br><br>
 <img src="Architecture 2 (sgd).png" alt="Architecture 2 (sgd)"><img src="Architecture 2 (adam).png" alt="Architecture 2 (adam)"><br><br>
 <img src="Architecture 3 (sgd).png" alt="Architecture 3 (sgd)"><img src="Architecture 3 (adam).png" alt="Architecture 3 (adam)"><br><br>
+The results here are largely the same as those found in the Smith et al. paper: the learning curves from the decreasing learning rate procedure are identical to the curves from the increasing learning rate procedure (and the hyrbrid procedure). The lines for Architectures 1 and 2 are almost indistinguishable, however for Architecture 3 there is a small, but visible difference. This small difference may suggest that the result that Smith et al. found when training on the large ImageNet and CIFAR-10 datasets does not perfectly translate to this context. This small difference was persistent over severl trials with varying initial weights.<br><br>
+Interestingly, these results are somewhat mixed in that when using SGD optimization on Architecture 3, increasing batch size produced better a accuracy than decreasing learning rate, but when instead using Adam optimization on the same architecture, the opposite occurred. This suggests that the difference in the optimization procedure may be more important than the difference between increasing batch size and decreasing learning rate, in the context of this project.<br><br>
+
 	</p>
 	<h1>References</h1>
 	<p><i><a href="https://arxiv.org/pdf/1711.00489.pdf">Don’t Decay the Learning Rate, Increase the Batch Size</a></i> by Smith et al. (2018). This is the main paper I was aiming to replicate.<br><br>
 <a href="http://yann.lecun.com/exdb/mnist/index.html">This page</a> describes the performance of many different architectures on the MNIST database, and is where I drew the shapes for the first two architectures I used.<br><br>
 <i><a href="http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf">Gradient-Based Learning Applied to Document Recognition</a></i> by LeCun et al. (1998). This paper describes LeNet-5, which is the third architecture I tested in this project.<br><br>
 <i><a href="https://arxiv.org/abs/1412.6980">Adam: A Method for Stochastic Optimization</a></i> by Kingman and Ba (2014). This paper describes the Adam optimization procedure used in half of the tests in this project.
+	</p>
+	<h1>Code</h1>
+	<p>The code I wrote for this project is contained in two scripts: <a href="main.py">main.py</a>, which does most of the work involved with the project including defining the architectures and running all the training procedures while measuring accuracy, and <a href="plots.py">plots.py</a> which uses the data computed by main.py to produce the graphs that appear in this paper. main.py computes the accuracies and then pickles the dictionary that contains them, and the pickled file is then read by plots.py, so to reproduce my results, you should place main.py and plots.py in the same directory, then run main.py, and finally run plot.py.
 	</p>
 	
 </div>
